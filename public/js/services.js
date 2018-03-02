@@ -19,10 +19,13 @@ var images1 = [
         link: "images/top6.png"
     },
     {
-        link:"images/top7.png"
+        link: "images/top7.png"
     },
     {
         link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsA3z-Vbw1aH1V8rYllBD9aYCrAoJHTferyBdFMFSB7zqKYLV-wQ"
+    },
+    {
+        link: "http://nebula.wsimg.com/0d509fc91af9d9735e2cbcb248321669?AccessKeyId=9094E9E2F84D04C5F2D1&disposition=0&alloworigin=1"
     }
 
 
@@ -56,14 +59,35 @@ var images3 = [{
 ]
 
 
+// function to initialize our carousel
+function carouselInit() {
+    $('.carousel').carousel({
+      
+    })
 
+}
+
+const carousel = $("<div class='carousel'>"); //create brand new carousel div element
+$("#imagesRow1").append(carousel);
 images1.forEach(function(result) {
-    let newImage = $("<div class='item'>");
     let pic = result.link;
-    pic = "<div class= 'dynamicImage'><img src=" + pic + " class='serviceImage'></div>";
-    newImage.append(pic);
-    $("#imagesRow1").append(newImage)
+    // pic = "<div class= 'dynamicImage'><img src=" + pic + " class='serviceImage'></div>";
+    let newImage = $("<a class='carousel-item' href='#'>").append(
+         "<div class= 'dynamicImage'><img src=" + pic + " class='serviceImage1'></div></a>"
+        
+        )
+    carousel.append(newImage);
+
 });
+
+carouselInit()
+// images1.forEach(function(result) {
+//     let newImage = $("<div class='item'>");
+//     let pic = result.link;
+//     pic = "<div class= 'dynamicImage'><img src=" + pic + " class='serviceImage'></div>";
+//     newImage.append(pic);
+//     $("#imagesRow1").append(newImage)
+// });
 
 images2.forEach(function(result) {
     let newImage = $("<div class='item'>");
