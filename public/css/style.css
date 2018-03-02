@@ -2,9 +2,11 @@ html {
     min-height: 100%;
 }
 
+
 #aboutCar {
     height: 150px;
     width: 150px;
+    /*margin-bottom: -50%;*/
 }
 #needed{
     margin-top: 30%;
@@ -24,7 +26,8 @@ html {
 }
 
 #bottomAbout{
-    margin-top: 8%;
+    margin-top: 3%;
+    padding-top:-25%;
 }
 #teamImage{
     margin-left: 10%;
@@ -186,6 +189,7 @@ footer {
     #menuButton {
         margin-top: 5%;
         margin-right: 5%;
+        color: white;
     }
     footer {
         bottom: 3;
