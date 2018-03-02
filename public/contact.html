@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+
+</head>
+
+<body>
+    <header></header>
+    <main>
+
+        <!--header-->
+        <div class="row">
+            <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i id="menuButton" class="material-icons">menu</i></a>
+            <div class="col m3 white-text">
+                <a href="#" class="brand-logo" id="topLogo" style="margin-left: 8%;"><img src="http://nebula.wsimg.com/e7a9c9f0490cb8d396d19e56a8b9cf0e?AccessKeyId=9094E9E2F84D04C5F2D1&disposition=0&alloworigin=1"></a><br>
+                <div id="logoTop">An autobody shop for people who love cars</div>
+
+            </div>
+            <div class="col m4 white-text center hide-on-med-and-down" style="margin-top: 1%">
+                <h5 id="topStuff"> From Fender Benders to Complete Restorations, we've got you covered!
+                </h5>
+                <!--end header-->
+
+
+            </div>
+            <div class="col m5">
+                <nav class="black">
+                    <div class="nav-wrapper">
+
+                        <!--<a href="#" data-activates="slide-out" class="button-collapse show-on-med-and-down"><i class="material-icons">menu</i></a>-->
+
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="/index" id="index">Home</a></li>
+                            <li><a href="/about"  id="about">About Us</a></li>
+                            <li><a href="/services" id="services">Services</a></li>
+                            <li><a href="/contact" class="activeNav" id="contact">Contact Us</a></li>
+                            <li><a href="/forSale" id="forSale">For Sale</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+
+
+
+        <!--sideNav hidden on large scrrens-->
+
+        <ul id="slide-out" class="side-nav hide-on-large blue-grey darken-2">
+            <li><a href="/index" class="white-text" id="home">Home</a></li>
+            <li><a href="/about" class="white-text" id="about">About Us</a></li>
+            <li><a href="/services" class="white-text" id="services">Services</a></li>
+            <li><a href="/contact" class="white-text" id="contact">Contact Us</a></li>
+            <li><a href="/forSale" class="white-text" id="forSale">For Sale</a></li>
+
+        </ul>
+
+        <!--end side nav-->
+
+        <!--begin main area-->
+        <div class="row">
+        <div class="col m4">
+            <!--put map here-->
+            <!--and phone# again-->
+        </div>
+        
+        <div class="col m8">
+       <div class="container">
+
+            <form class="col m12">
+                                <div class="row">
+                                    <div class="input-field col m12">
+                                        <input id="name" type="text" class="white-text">
+                                        <label for="email">Name</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col m12">
+                                        <input id="phone" type="text" class="white-text">
+                                        <label for="phone">Phone Number</label>
+                                    </div>
+                                </div>
+                                  <div class="row">
+                                    <div class="input-field col m12">
+                                        <input id="email" type="email" class="white-text">
+                                        <label for="email">E-mail</label>
+                                    </div>
+                                </div>
+                                  <div class="row">
+                                    <div class="input-field col m12">
+                                        <input id="message" type="text" class="white-text">
+                                        <label for="text">Message</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field">
+                                        <a href="#" id="submit" class="btn waves-effect waves-light red darken-4 center-align"><span class="white-text">Submit</span></a>
+                                    </div>
+                                </div>
+                               
+                            </form>
+                      
+
+                        <!-- Modal -->
+
+                        <div id="modal1" class="modal">
+                            <div class="modal-content">
+                                <h4>Thank You!</h4>
+                                <p>We will get back with you as soon as possible!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+                <!--end of FIRST row-->
+
+
+
+</div>
+            </div>
+
+        </div>
+        </div>
+        <!--end main-->
+
+
+    </main>
+    <footer class="page-footer blue-grey darken-2 ">
+        <div class="footer-copyright ">
+            <div class="container white-text ">
+                © 2018
+                <a class="white-text text-lighten-4 right " href='/faq'>FAQ</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $('.collapsible').collapsible();
+            $(".button-collapse").sideNav();
+            $('.scrollspy').scrollSpy();
+            $('ul.tabs').tabs('select_tab', 'tab_id');
+        });
+    </script>
+    <script src="./javascript/search.js"></script>
+    <script src="./javascript/message.js"></script>
+</body>
+
+</html>

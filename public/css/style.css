@@ -2,6 +2,20 @@ html {
     min-height: 100%;
 }
 
+
+
+#serviceImage1{
+    margin-top: 25%;
+}
+#bottomAbout{
+    margin-top: 8%;
+}
+#teamImage{
+    margin-left: 25%;
+    height: 500px;
+    width: 500px;
+}
+
 #shopPhoto{
     height: 170px;
     width: 200px;
@@ -154,7 +168,7 @@ footer {
 
     #menuButton {
         margin-top: 5%;
-        margin-left: 5%;
+        margin-right: 5%;
     }
     footer {
         bottom: 3;
