@@ -1,0 +1,193 @@
+html {
+    min-height: 100%;
+}
+
+#shopPhoto{
+    height: 170px;
+    width: 200px;
+    /*margin-left: 25%;*/
+}
+
+#topLogo {
+    margin-top: 1%;
+}
+
+#cardArea {
+    margin-right: 3%;
+}
+
+#scrollHere {
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.7), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    opacity: .9;
+
+}
+
+
+.card-content {
+    padding: 1%;
+    /*margin-left: -18%;*/
+}
+
+#tabs{
+    border-radius: 60px;
+    opacity: .9;
+
+}
+
+
+.imageBox {
+
+    margin-left: 20px;
+}
+
+#body3 {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.carousel {
+    margin-top: 3%;
+    height: 500px;
+}
+
+
+
+body {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    /*background-image: url(http://clipart-library.com/images/6Ty5GE6ac.jpg);*/
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*background: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 0.1)), url(http://clipart-library.com/images/6Ty5GE6ac.jpg);*/
+}
+
+main {
+    min-height: 100%;
+    flex: 1 0 auto;
+}
+
+#searchCard {
+    /*margin-top: -5%;*/
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.7), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    opacity: .9;
+    margin-left: 5%;
+
+
+}
+
+
+
+#logoTop {
+    font-style: italic;
+}
+
+#topStuff {
+    margin-left: 10%;
+    font-family: Bungee-inline;
+    margin-bottom: -60%;
+}
+
+.active {
+    color: white!important;
+}
+
+.activeNav {
+    color: red!important;
+}
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+    opacity: .9;
+    margin-top: 5%;
+}
+
+.footerLink {
+    color: black;
+}
+
+
+
+
+
+#body3 {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 6px 6px 6px 6px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 750px) and (min-width: 200px) {
+
+    #scrollHere {
+        margin-top: 2%;
+        margin-left: 7%;
+        margin-right: 0;
+
+
+    }
+
+    #menuButton {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    footer {
+        bottom: 3;
+        width: 100%;
+        opacity: .9;
+        margin-top: 5%;
+    }
+
+    #topStuff {
+        margin-left: 0;
+        font-family: Bungee-inline;
+    }
+
+
+    #searchCard {
+        /*margin-top: -50%;*/
+
+        margin-left: -50%;
+        /*margin-right: 10%;*/
+        width: 0px;
+        height: 0px;
+    }
+
+
+#cardArea{
+    margin-left: 0;
+    margin-right:0;
+}
+
+    .carousel {
+        width: 360px;
+        height: 500px;
+        padding: 30px;
+    }
+
+}
