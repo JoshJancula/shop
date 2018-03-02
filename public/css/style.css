@@ -2,24 +2,41 @@ html {
     min-height: 100%;
 }
 
-
-
-#serviceImage1{
-    margin-top: 25%;
+#aboutCar {
+    height: 150px;
+    width: 150px;
 }
+#needed{
+    margin-top: 30%;
+}
+.item {
+    /*height: 200px;*/
+    /*width: 200px;*/
+    display: inline-block;
+    margin: 2%;
+}
+
+.serviceImage {
+    height: 250px;
+    width: 250px;
+    /*display: inline-block;*/
+    /*margin: 2%;*/
+}
+
 #bottomAbout{
     margin-top: 8%;
 }
 #teamImage{
-    margin-left: 25%;
+    margin-left: 10%;
     height: 500px;
-    width: 500px;
+    width: 300px;
 }
 
 #shopPhoto{
     height: 170px;
     width: 200px;
-    /*margin-left: 25%;*/
+   margin-left: 78%;
+   margin-top: -90%;
 }
 
 #topLogo {
@@ -112,7 +129,7 @@ main {
 #topStuff {
     margin-left: 10%;
     font-family: Bungee-inline;
-    margin-bottom: -60%;
+    margin-bottom: -50%;
 }
 
 .active {
@@ -159,7 +176,7 @@ footer {
 @media screen and (max-width: 750px) and (min-width: 200px) {
 
     #scrollHere {
-        margin-top: 2%;
+        /*margin-top: 2%;*/
         margin-left: 7%;
         margin-right: 0;
 
@@ -185,15 +202,16 @@ footer {
 
     #searchCard {
         /*margin-top: -50%;*/
-
-        margin-left: -50%;
-        /*margin-right: 10%;*/
+        margin-top: -15%;
+        margin-left: -20%;
+        margin-right: 10%;
         width: 0px;
         height: 0px;
     }
 
 
 #cardArea{
+    margin-top:0;
     margin-left: 0;
     margin-right:0;
 }
@@ -202,6 +220,15 @@ footer {
         width: 360px;
         height: 500px;
         padding: 30px;
+    }
+    
+    .item {
+        margin-left: 15%;
+    }
+    
+    .tabImg {
+        height: 250px;
+        width: 250px;
     }
 
 }
