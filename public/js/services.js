@@ -62,7 +62,7 @@ var images3 = [{
 // function to initialize our carousel
 function carouselInit() {
     $('.carousel').carousel({
-      
+       shift: 50,
     })
 
 }

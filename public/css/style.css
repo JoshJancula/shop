@@ -2,6 +2,12 @@ html {
     min-height: 100%;
 }
 
+#topLogo{
+  
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
 
 #aboutCar {
     height: 150px;
@@ -25,6 +31,8 @@ html {
     /*margin: 2%;*/
 }
 
+
+
 .serviceImage1 {
     height: 250px;
     width: 350px;
@@ -43,10 +51,10 @@ html {
 }
 
 #shopPhoto{
-    height: 170px;
-    width: 200px;
-   /*margin-left: 78%;*/
-   /*margin-top: -90%;*/
+    height: 200px;
+    width: 300px;
+   margin-left: 20%;
+   /*margin-top: -120%;*/
    float: right;
 }
 
@@ -71,7 +79,7 @@ html {
 
 .card-content {
     padding: 1%;
-    /*margin-left: -18%;*/
+    /*margin-left: -20%;*/
 }
 
 #tabs{
@@ -99,11 +107,11 @@ html {
 
 
 .carousel {
-    margin-top: -25%;
+    /*margin-top: 2%;*/
     margin-left: -50%;
-    height: 300px;
-    width: 800px;
-    padding: 3%;
+    height: 400px;
+    width: 900px;
+    padding: 5%;
 }
 
 
@@ -129,7 +137,7 @@ main {
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.7), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     opacity: .9;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 
 
 }
@@ -198,7 +206,8 @@ footer {
     }
 
     #menuButton {
-        margin-top: 5%;
+        margin-top: 1%;
+        margin-left: 2%;
         margin-right: 5%;
         color: white;
     }
@@ -216,10 +225,8 @@ footer {
 
 
     #searchCard {
-        /*margin-top: -50%;*/
-        /*margin-top: -15%;*/
         margin-left: 0%;
-        /*margin-right: 10%;*/
+        margin-right: 10%;
         width: 200px;
         height: 0px;
     }
@@ -228,12 +235,11 @@ footer {
 #cardArea{
     width: 200px;
     margin-top:0;
-    margin-left: 0;
-    margin-right:0;
+    margin-left: 0px;
+    margin-right:5%;
 }
 
     .carousel {
-        margin-top: -50%;
         margin-left: 0%;
         width: 360px;
         height: 300px;
@@ -250,6 +256,17 @@ footer {
         width: 250px;
     }
     
+#logoTop {
    
+    font-style: italic;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#topLogo{
+  
+    margin-left: 10%;
+}
+
 
 }
