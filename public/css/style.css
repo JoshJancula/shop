@@ -12,8 +12,8 @@ html {
 #aboutCar {
     height: 150px;
     width: 150px;
-    /*margin-bottom: -50%;*/
 }
+
 #needed{
     margin-top: 30%;
 }
@@ -51,11 +51,12 @@ html {
 }
 
 #shopPhoto{
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 220px;
    margin-left: 20%;
-   /*margin-top: -120%;*/
-   float: right;
+   /*margin-right: 5%;*/
+   margin-top: 20%;
+   /*float: right;*/
 }
 
 #topLogo {
@@ -226,7 +227,7 @@ footer {
 
     #searchCard {
         margin-left: 0%;
-        margin-right: 10%;
+        /*margin-right: 10%;*/
         width: 200px;
         height: 0px;
     }
@@ -236,7 +237,7 @@ footer {
     width: 200px;
     margin-top:0;
     margin-left: 0px;
-    margin-right:5%;
+    /*margin-left: -5%;*/
 }
 
     .carousel {
