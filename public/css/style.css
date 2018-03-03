@@ -52,10 +52,15 @@ html {
     padding-top:-25%;
 }
 #teamImage{
-    margin-top: 14%;
+    margin-top: 8%;
     margin-left: 3%;
     height: 300px;
     width: 300px;
+}
+
+#longTerm{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #shopPhoto{
@@ -214,6 +219,15 @@ footer {
         width: 600px;
     }
 
+
+   #mission{
+        margin-top: 8%;
+    }
+    
+    .aboutText{
+        margin-right: 10%;
+    }
+
 /*end larger screens */
 
 
@@ -249,6 +263,10 @@ footer {
 
 
     }
+    
+    /*#mission{*/
+    /*    margin-top: 5%;*/
+    /*}*/
 
     #menuButton {
         margin-top: 1%;
