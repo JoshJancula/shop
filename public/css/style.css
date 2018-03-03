@@ -38,7 +38,7 @@ html {
 
 .serviceImage1 {
     height: 250px;
-    width: 350px;
+    width: 550px;
  
 }
 
@@ -299,6 +299,12 @@ footer {
    /*margin-right: 5%;*/
    margin-top: 20%;
    /*float: right;*/
+}
+
+.serviceImage1 {
+    height: 250px;
+    width: 300px;
+ 
 }
 
 }
