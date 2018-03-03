@@ -1,3 +1,4 @@
+/* larger screens */
 html {
     min-height: 100%;
 }
@@ -14,8 +15,8 @@ html {
 }
 
 #aboutCar {
-    height: 150px;
-    width: 150px;
+    height: 320px;
+    width: 320px;
 }
 
 #needed{
@@ -34,7 +35,12 @@ html {
    
 }
 
-
+.bottomLink{
+    height: 50px;
+    width: 50px;
+    margin-left: 5%;
+    display: inline-block;
+}
 
 .serviceImage1 {
     height: 250px;
@@ -47,8 +53,9 @@ html {
     padding-top:-25%;
 }
 #teamImage{
-    margin-left: 10%;
-    height: 500px;
+    margin-top: 10%;
+    margin-left: 3%;
+    height: 300px;
     width: 300px;
 }
 
@@ -91,6 +98,7 @@ html {
 
 #tabs{
    margin-left: -5%;
+   
 }
 
 
@@ -201,13 +209,161 @@ footer {
     flex-direction: column;
 }
 
+.tabImg {
+        height: 300px;
+        width: 600px;
+    }
+
+/*end larger screens */
 
 
 
 
 
 
-@media screen and (max-width: 750px) and (min-width: 200px) {
+
+
+
+
+
+/*  this is for tablets */
+@media screen and (max-width: 980px) and (min-width: 668px) and (-webkit-min-device-pixel-ratio: 2){
+
+
+#teamImage{
+    /*margin-top: 50%;*/
+    margin-left: 0%;
+    height: 300px;
+    width: 200px;
+}
+
+#aboutCar{
+    width: 400px;
+    height: 300px;
+    margin-left: 35%;
+}
+    #scrollHere {
+        margin-top: 0%;
+        margin-left: 7%;
+        margin-right: 0;
+
+
+    }
+
+    #menuButton {
+        margin-top: 1%;
+        margin-left: 2%;
+        margin-right: 5%;
+        color: white;
+    }
+    footer {
+        bottom: 3;
+        width: 100%;
+        opacity: .9;
+        margin-top: 5%;
+    }
+
+    #topStuff {
+        margin-left: 0;
+        font-family: Bungee-inline;
+    }
+
+
+    #searchCard {
+        margin-left: 0%;
+        /*margin-right: 10%;*/
+        width: 200px;
+        height: 0px;
+    }
+
+
+#cardArea{
+    width: 200px;
+    margin-top:0;
+    margin-left: 0px;
+    /*margin-left: -5%;*/
+}
+
+    .carousel {
+        margin-left: 0%;
+        width: 360px;
+        height: 300px;
+        padding: 1%;
+        margin-bottom: -30%;
+    }
+    
+    .item {
+        margin-left: 15%;
+    }
+    
+    .tabImg {
+        height: 300px;
+        width: 400px;
+    }
+    
+#logoTop {
+   
+    font-style: italic;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#topLogo{
+  
+    margin-left: 10%;
+}
+
+#mapPic{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 300px;
+    width: 300px;
+}
+
+.collapsible{
+    /*margin-top*/
+    margin-left: 0%;
+}
+
+#shopPhoto{
+    height: 280px;
+    width: 420px;
+   margin-left: 10%;
+   /*margin-right: 5%;*/
+   margin-top: 4%;
+   /*float: right;*/
+}
+
+.serviceImage1 {
+    height: 250px;
+    width: 300px;
+}
+
+.bottomLink:first-child{
+    margin-left: 50%;
+}
+
+}
+
+
+/*  end tablets  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  this is for cell phones */
+@media screen and (min-device-width: 250px)  and (max-device-width: 667px)   and (-webkit-min-device-pixel-ratio: 2) {
 
     #scrollHere {
         margin-top: 0%;
@@ -289,6 +445,7 @@ footer {
 }
 
 .collapsible{
+    /*margin-top*/
     margin-left: 0%;
 }
 
@@ -297,14 +454,17 @@ footer {
     width: 220px;
    margin-left: 20%;
    /*margin-right: 5%;*/
-   margin-top: 20%;
+   margin-top: 10%;
    /*float: right;*/
 }
 
 .serviceImage1 {
     height: 250px;
     width: 300px;
- 
+}
+
+.bottomLink:first-child{
+    margin-left: 50%;
 }
 
 }
