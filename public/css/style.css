@@ -5,9 +5,9 @@ html {
 
 #facebookMainTop{
     height: 100px;
-    width: 250px;
-    margin-left: 5%;
-    margin-top: 10%;
+    width: 265px;
+    margin-left: 3%;
+    margin-top: -2%;
 }
 
 #facebookContact{
@@ -40,8 +40,8 @@ html {
 }
 
 .collapsible{
-    margin-left: -20%;
-    margin-top: -10%;
+    margin-left: -10%;
+    /*margin-top: -10%;*/
 }
 
 #aboutCar {
@@ -95,10 +95,10 @@ html {
 
 #shopPhoto{
     height: 250px;
-    width: 260px;
-   margin-left: 4%;
+    width: 265px;
+   margin-left: 3%;
    /*margin-right: 5%;*/
-   /*margin-top: -10%;*/
+   margin-top: -6%;
    /*float: right;*/
 }
 
@@ -516,7 +516,7 @@ footer {
     width: 220px;
    margin-left: 20%;
    /*margin-right: 5%;*/
-   margin-top: 10%;
+   margin-top: 5%;
    /*float: right;*/
    margin-bottom: 8%;
 }
@@ -557,6 +557,7 @@ footer {
 #facebookMain{
     height: 100px;
     width: 250px;
+    margin-top: -10%;
     /*margin-left: 12%;*/
     /*margin-right: 12%;*/
 }
