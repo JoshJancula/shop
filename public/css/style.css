@@ -10,6 +10,17 @@ html {
     margin-top: 10%;
 }
 
+#facebookContact{
+    height: 100px;
+    width: 250px;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+#mapPicMain2 {
+    height: 200px;
+    width: 200px;
+}
 
 
 .card, .card-action {
@@ -533,7 +544,32 @@ footer {
 #facebookMain{
     height: 100px;
     width: 250px;
-    margin-left: 12%;
+    /*margin-left: 12%;*/
+    /*margin-right: 12%;*/
+}
+
+#hiddenFender{
+    margin-top: -8%;
+}
+
+#tabs{
+   margin-left: 0%;
+   margin-right: 0%;
+   
+}
+
+
+#mapPic{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 15%;
+    height: 250px;
+    width: 250px;
+}
+
+#mapPicMain{
+    height: 200px;
+    width: 200px;
 }
 
 }
