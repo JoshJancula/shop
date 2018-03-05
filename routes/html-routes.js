@@ -25,8 +25,8 @@ module.exports = function(app) {
   });
  
   // main route loads forSale
-  app.get("/forSale", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/forSale.html"));
+  app.get("/reviews", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/reviews.html"));
   });
  
   // main route loads about.html

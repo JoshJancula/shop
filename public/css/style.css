@@ -3,6 +3,16 @@ html {
     min-height: 100%;
 }
 
+.card, .card-action {
+      border-radius: 20px;
+}
+
+.yelp-review{
+    margin-top: 5%;
+    margin-left: 25%;
+    
+}
+
 #topLogo{
   
     margin-left: 5%;
@@ -482,8 +492,12 @@ footer {
 }
 
 .bottomLink:first-child{
-    margin-left: 50%;
+    margin-left: 40%;
 }
+
+/*.footLike{*/
+/*    margin-left:;*/
+/*}*/
 
 
 .card, #teamImage, #aboutCar, .aboutText{
@@ -493,6 +507,15 @@ footer {
 
 #teamImage{
     margin-top: 0%;
+}
+
+.yelp-review{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 250px;
+    width: 200px;
+    
 }
 
 }
