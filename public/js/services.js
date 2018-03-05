@@ -62,7 +62,7 @@ var images3 = [{
 // function to initialize our carousel
 function carouselInit() {
     $('.carousel').carousel({
-       shift: 50,
+      shift: 50,
     })
 
 }
@@ -81,13 +81,6 @@ images1.forEach(function(result) {
 });
 
 carouselInit()
-// images1.forEach(function(result) {
-//     let newImage = $("<div class='item'>");
-//     let pic = result.link;
-//     pic = "<div class= 'dynamicImage'><img src=" + pic + " class='serviceImage'></div>";
-//     newImage.append(pic);
-//     $("#imagesRow1").append(newImage)
-// });
 
 images2.forEach(function(result) {
     let newImage = $("<div class='item'>");

@@ -78,8 +78,8 @@ html {
 }
 
 #bottomAbout{
-    margin-top: 0%;
-    padding-top:-25%;
+    margin-top: -0.5%;
+    padding-top:-20%;
 }
 #teamImage{
     margin-top: 7%;
@@ -132,7 +132,8 @@ html {
 
 #tabs{
    margin-left: -5%;
-   
+   margin-right: 5%;
+   margin-top: 5%;
 }
 
 
@@ -162,13 +163,15 @@ html {
 
 .carousel {
     /*margin-top: 2%;*/
-    margin-left: -50%;
-    height: 400px;
+    margin-left: -40%;
+    height: 300px;
     width: 900px;
     padding: 5%;
 }
 
-
+ .carousel-item{
+       margin-left: -15%;
+   }
 
 body {
     display: flex;
@@ -271,7 +274,7 @@ footer {
 
 
 /*  this is for tablets */
-@media screen and (max-width: 980px) and (min-width: 668px) and (-webkit-min-device-pixel-ratio: 2){
+@media screen and (max-width: 980px) and (min-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
 
 
 #teamImage{
@@ -294,10 +297,9 @@ footer {
 
     }
     
-    /*#mission{*/
-    /*    margin-top: 5%;*/
-    /*}*/
-
+   .carousel-item{
+       margin-left: -15%;
+   }
     #menuButton {
         margin-top: 1%;
         margin-left: 2%;
@@ -318,12 +320,19 @@ footer {
 
 
     #searchCard {
-        margin-left: 0%;
+        margin-left: 25%;
+         margin-right: 25%;
         /*margin-right: 10%;*/
-        width: 200px;
+        width: 400px;
         height: 0px;
     }
 
+
+.serviceImage {
+    height: 200px;
+    width: 200px;
+   
+}
 
 #cardArea{
     width: 200px;
@@ -333,11 +342,11 @@ footer {
 }
 
     .carousel {
-        margin-left: 0%;
-        width: 360px;
+        margin-left: 10%;
+        width: 560px;
         height: 300px;
         padding: 1%;
-        margin-bottom: -30%;
+        margin-bottom: 0%;
     }
     
     .item {
@@ -377,7 +386,8 @@ footer {
 #shopPhoto{
     height: 280px;
     width: 420px;
-   margin-left: 10%;
+   margin-left: 25%;
+    margin-right: 25%;
    /*margin-right: 5%;*/
    margin-top: 4%;
    /*float: right;*/
@@ -385,7 +395,7 @@ footer {
 
 .serviceImage1 {
     height: 250px;
-    width: 300px;
+    width: 450px;
 }
 
 .bottomLink:first-child{
@@ -411,7 +421,7 @@ footer {
 
 
 /*  this is for cell phones */
-@media screen and (min-device-width: 250px)  and (max-device-width: 667px)   and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-device-width: 250px)  and (max-device-width: 666px)   and (-webkit-min-device-pixel-ratio: 2) {
 
     #scrollHere {
         margin-top: 0%;

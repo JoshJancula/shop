@@ -14,7 +14,7 @@
 <body>
     <header></header>
     <main>
-
+        <div class="section scrollspy" id="pageTop"></div>
         <!--header-->
         <div class="row">
             <a href="#" data-activates="slide-out" class="medium button-collapse hide-on-large-only"><i id="menuButton" class="medium material-icons">menu</i></a>
@@ -80,7 +80,7 @@
                     </div>
 
                 </div>
-                  <a href="https://www.facebook.com/McneillsBodyShop/">
+                <a href="https://www.facebook.com/McneillsBodyShop/">
                     <img class="hide-on-small-only" id="facebookContact" src="/images/facebook4.jpg">
                     </a>
 
@@ -117,16 +117,16 @@
                         </div>
                         <div class="row">
                             <div class="input-field">
-                                <a href="#" id="submit" class="btn waves-effect waves-light red darken-4 center-align"><span class="white-text">Submit</span></a>
+                                <a href="#" id="submitButton" class="btn waves-effect waves-light red darken-4 center-align"><span class="white-text">Submit</span></a>
                             </div>
                         </div>
 
                     </form>
 
 
-                    <!-- Modal -->
+                    <!-- thankYou modal -->
 
-                    <div id="modal1" class="modal">
+                    <div id="thankYou" class="modal">
                         <div class="modal-content">
                             <h4>Thank You!</h4>
                             <p>We will get back with you as soon as possible!</p>
@@ -139,11 +139,25 @@
                     </form>
 
                 </div>
-                <!--end of FIRST row-->
+                <!--end of modal-->
 
+                <!-- pleaseComplete -->
 
+                <div id="pleaseComplete" class="modal">
+                    <div class="modal-content">
+                        <div id="wrong"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                    </div>
+                </div>
+
+                </form>
 
             </div>
+            <!--end of modal-->
+
+        </div>
         </div>
 
         </div>
@@ -155,29 +169,32 @@
     <!--need to put facebook and links down here-->
     <footer class="page-footer black hide-on-med-and-up">
         <div class="row">
-                <!--<img src="images/twitter.jpg" class="bottomLink left">-->
-                <div class="row">
+
+            <div class="row">
                 <a href="https://www.facebook.com/McneillsBodyShop/"><img src="images/logo_facebook.png" class="bottomLink center"></a>
-                </div>
-                <div class="row">
-                <p class="footLike center">Like us on FaceBook!</p>
-                </div>
             </div>
-       
+            <div class="row">
+                <p class="footLike center">Like us on FaceBook!</p>
+            </div>
+        </div>
+
     </footer>
+    <div class="row center hide-on-med-and-up">
+        <a href="#pageTop" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">arrow_upward</i></a>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
     <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
     <script>
         $(document).ready(function() {
+            $('.modal').modal();
             $('.collapsible').collapsible();
             $(".button-collapse").sideNav();
             $('.scrollspy').scrollSpy();
-            $('ul.tabs').tabs('select_tab', 'tab_id');
         });
     </script>
-    <!--<script src="./javascript/search.js"></script>-->
-    <!--<script src="./javascript/message.js"></script>-->
+
+    <script src="./js/contact.js"></script>
 </body>
 
 </html>
