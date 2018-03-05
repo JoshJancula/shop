@@ -63,13 +63,72 @@
 
 
         <!--mobile view of shop-->
-        <div class='row hide-on-large-only'>
-            <div class="col s3 pull-s2 m3 ">
+        <!--<div class='row hide-on-large-only'>-->
+        <!--    <div class="col s3 pull-s2 m3 ">-->
+        <!--        <div class="card black" id="searchCard">-->
+        <!--            <div class="card-content black-text">-->
+        <!--                <span class="card-title black-text center-align"></span>-->
+        <!--                <div class="row">-->
+        <!--                    <div class="col l12">-->
+        <!--                        <ul class="collapsible popout" data-collapsible="accordion">-->
+
+
+        <!--                            <li>-->
+        <!--                                <div class="collapsible-header"><i class="material-icons">add_location</i>Location</div>-->
+
+        <!--                                <div class="collapsible-body white black-text">-->
+        <!--                                    <p>1909 West Roosevelt Blvd, Monroe NC 28112-->
+        <!--                                    </p>-->
+
+        <!--                                </div>-->
+        <!--                            </li>-->
+        <!--                            <li>-->
+        <!--                                <div class="collapsible-header"><i class="material-icons">call</i>Call</div>-->
+
+        <!--                                <div class="collapsible-body white black-text">-->
+        <!--                                    <p>704-238-9920</p>-->
+
+        <!--                                </div>-->
+        <!--                            </li>-->
+        <!--                            <li>-->
+        <!--                                <div class="collapsible-header white"><i class="material-icons">timer</i>Hours</div>-->
+
+        <!--                                <div class="collapsible-body white black-text">-->
+        <!--                                    <p>Monday - Friday: <br> 8 am -5 pm<br> Saturday:-->
+
+        <!--                                        <br> Call for an appointment<br> Sunday:-->
+        <!--                                        <br> Closed-->
+
+        <!--                                    </p>-->
+        <!--                                </div>-->
+        <!--                            </li>-->
+        <!--                        </ul>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--    <div class="col s8 m9">-->
+        <!--        <img id="shopPhoto" src="images/mainHidden.png">-->
+        <!--    </div>-->
+          
+        <!--</div>-->
+        
+        
+        <!--test-->
+          <div class="row hide-on-large-only">
+                <img id="shopPhoto" src="images/mainHidden.png">
+            </div>
+      
+        
+        
+          <div class='row hide-on-large-only'>
+          
                 <div class="card black" id="searchCard">
                     <div class="card-content black-text">
                         <span class="card-title black-text center-align"></span>
                         <div class="row">
-                            <div class="col l12">
+                            <div class="col l12 s12">
                                 <ul class="collapsible popout" data-collapsible="accordion">
 
 
@@ -106,13 +165,21 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col s8 m9">
-                <img id="shopPhoto" src="images/mainHidden.png">
+               </div>
             </div>
           
-        </div>
+        
+        <!--end test-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <div class="row">
             <h5 class="hide-on-large-only white-text center">From Fender Benders to Complete Restorations, we've got you covered!
             </h5>
@@ -166,7 +233,7 @@
                     </div>
 
                 </div>
-
+                
                 <div class="row">
                     <!--pic goes here-->
                     <div id="imageHere">
@@ -229,7 +296,7 @@
         $(document).ready(function() {
             $('.collapsible').collapsible({
                  constrainWidth: true,
-                  stopPropagation: true // Stops event propagation
+                 stopPropagation: true // Stops event propagation
             });
             $(".button-collapse").sideNav();
             $('.scrollspy').scrollSpy();
