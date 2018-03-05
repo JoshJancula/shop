@@ -323,7 +323,7 @@ footer {
         margin-left: 25%;
          margin-right: 25%;
         /*margin-right: 10%;*/
-        width: 400px;
+        width: 0px;
         height: 0px;
     }
 
@@ -390,6 +390,7 @@ footer {
     margin-right: 25%;
    /*margin-right: 5%;*/
    margin-top: 4%;
+   margin-bottom: 2%;
    /*float: right;*/
 }
 
@@ -455,6 +456,7 @@ footer {
         /*margin-right: 10%;*/
         /*width: 200px;*/
         /*height: 0px;*/
+         opacity: .5;
     }
 
 
@@ -516,6 +518,7 @@ footer {
    /*margin-right: 5%;*/
    margin-top: 10%;
    /*float: right;*/
+   margin-bottom: 8%;
 }
 
 .serviceImage1 {
@@ -563,6 +566,7 @@ footer {
 }
 
 #tabs{
+    margin-top: -6%;
    margin-left: 0%;
    margin-right: 0%;
    
