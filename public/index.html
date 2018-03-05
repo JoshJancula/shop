@@ -182,7 +182,7 @@
             <div class="col l1"></div>
             <!--------------------- column ----------------------------->
             <div id="scrollHere" class="col l8 s11 white-text center">
-<!--<div class="row">-->
+
                 <div class="cardArea">
                     <ul id="tabs" class="tabs black darken-2 center">
                         <li class="tab col l4"><a class="active" href="#test-swipe-1">Our Team</a></li>
@@ -227,7 +227,10 @@
     <script src="./js/main.js"></script>
     <script>
         $(document).ready(function() {
-            $('.collapsible').collapsible();
+            $('.collapsible').collapsible({
+                 constrainWidth: false,
+                  stopPropagation: false // Stops event propagation
+            });
             $(".button-collapse").sideNav();
             $('.scrollspy').scrollSpy();
             $('ul.tabs').tabs('select_tab', 'tab_id');
