@@ -3,6 +3,7 @@ html {
     min-height: 100%;
 }
 
+
 #facebookMainTop{
     height: 100px;
     width: 265px;
@@ -385,8 +386,8 @@ footer {
 
 #shopPhoto{
     height: 280px;
-    width: 420px;
-   margin-left: 25%;
+    width: 500px;
+   margin-left: 10%;
     margin-right: 25%;
    /*margin-right: 5%;*/
    margin-top: 4%;
@@ -402,6 +403,18 @@ footer {
 .bottomLink:first-child{
     margin-left: 50%;
 }
+
+#facebookContact{
+    height: 100px;
+    width: 250px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+#form{
+    margin-left: 5%;
+}
+
 
 }
 
@@ -527,7 +540,7 @@ footer {
 }
 
 .bottomLink:first-child{
-    margin-left: 40%;
+    margin-left: -2%;
 }
 
 /*.footLike{*/
@@ -586,5 +599,10 @@ footer {
     height: 200px;
     width: 200px;
 }
+
+#form{
+    margin-left: 15%;
+}
+
 
 }
