@@ -484,6 +484,8 @@ footer {
 .collapsible{
     /*margin-top*/
     margin-left: 0%;
+    margin: 1%;
+    margin-top: -12%;
 }
 
 #shopPhoto{
