@@ -71,6 +71,7 @@
                 <!--put map here-->
                 <iframe id="mapPic" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.17557924564!2d-80.55638148475965!3d35.00230968035822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885430b79ec8988f%3A0xcac846c2bab07149!2s1909+W+Roosevelt+Blvd%2C+Monroe%2C+NC+28110!5e0!3m2!1sen!2sus!4v1520042457792"
                     width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br>
+               
                 <div class="row">
                     <div class="col l4">
                         <i class="material-icons call white-text right medium">call</i>
@@ -115,6 +116,11 @@
                                 <label for="text">Message</label>
                             </div>
                         </div>
+                          <div class="row">
+                            <div class="input-field">
+                                <a href="#calendarModal" id="checkTimes" class="btn waves-effect waves-light red darken-4 center modal-trigger"><span class="white-text">Check Available Appointments</span></a>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="input-field">
                                 <a href="#" id="submitButton" class="btn waves-effect waves-light red darken-4 center"><span class="white-text">Submit</span></a>
@@ -149,6 +155,45 @@
                     </div>
                     <div class="modal-footer">
                         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+                    </div>
+                </div>
+
+                </form>
+
+            </div>
+            <!--end of modal-->
+            
+              <!-- calendar modal -->
+
+                <div id="calendarModal" class="modal blue-grey darken-1">
+                    <div class="modal-content">
+                        <iframe id="calendarPic" src="https://calendar.google.com/calendar/embed?src=joshjanculawebpage%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="400" height="300" frameborder="0" scrolling="no"></iframe><br>
+                        <div class="row">
+                            <h5 class="white-text">See an available time you'd like? Schedule it here.</h5>
+                        </div>
+                        <form>
+                               <div class="row">
+                            <div class="input-field col l12">
+                                <input id="time" type="text" class="white-text">
+                                <label for="time">Time</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l12">
+                                <input id="date" type="text" class="white-text">
+                                <label for="date">Date</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field">
+                                <a href="#" id="submitTime" class="btn waves-effect waves-light modal-action modal-close red darken-4 center"><span class="white-text">Submit</span></a>
+                            </div>
+                        </div>
+                        </form>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Nope</a>
                     </div>
                 </div>
 
