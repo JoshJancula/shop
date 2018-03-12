@@ -48,6 +48,7 @@ html {
 #aboutCar {
     height: 320px;
     width: 320px;
+     border-radius: 20px;
 }
 
 #needed{
@@ -83,6 +84,7 @@ html {
     padding-top:-20%;
 }
 #teamImage{
+     border-radius: 20px;
     margin-top: 7%;
     margin-left: 3%;
     height: 300px;
@@ -260,6 +262,7 @@ footer {
     
     .aboutText{
         margin-right: 10%;
+        font-size: 17px;
     }
 
 /*end larger screens */
@@ -277,12 +280,15 @@ footer {
 /*  this is for tablets */
 @media screen and (max-width: 980px) and (min-width: 667px) and (-webkit-min-device-pixel-ratio: 2){
 
-
+ .aboutText{
+        margin-right: 0%;
+    }
+    
 #teamImage{
     /*margin-top: 50%;*/
     margin-left: 0%;
     height: 300px;
-    width: 200px;
+    width: 300px;
 }
 
 #aboutCar{
@@ -294,10 +300,12 @@ footer {
         margin-top: 0%;
         margin-left: 7%;
         margin-right: 0;
-
-
     }
     
+    #needed{
+    margin-top: 0%;
+}
+
    .carousel-item{
        margin-left: -15%;
    }
@@ -332,6 +340,7 @@ footer {
 .serviceImage {
     height: 200px;
     width: 200px;
+    margin: 1%;
    
 }
 
@@ -387,8 +396,8 @@ footer {
 #shopPhoto{
     height: 280px;
     width: 500px;
-   margin-left: 10%;
-    margin-right: 25%;
+   margin-left: 0%;
+    margin-right: 0%;
    /*margin-right: 5%;*/
    margin-top: 4%;
    margin-bottom: 2%;
@@ -407,12 +416,16 @@ footer {
 #facebookContact{
     height: 100px;
     width: 250px;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-top: 0%;
 }
 
 #form{
     margin-left: 5%;
+}
+
+#phoneLink {
+    margin-left: 30%;
 }
 
 
@@ -592,8 +605,8 @@ footer {
 
 #mapPic{
     margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 15%;
+    margin-left: 0%;
+    margin-right: 0%;
     height: 250px;
     width: 250px;
 }
@@ -603,13 +616,17 @@ footer {
     width: 200px;
 }
 
-#form{
-    margin-left: 15%;
+#phoneLink {
+    margin-left: 10%;
 }
 
 #calendarPic{
     height: 500px;
     width: 250px;
+}
+
+#submitButton {
+    margin-left: -3%;
 }
 
 }
