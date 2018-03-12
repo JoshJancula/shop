@@ -14,7 +14,7 @@ html {
 #facebookContact{
     height: 100px;
     width: 250px;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 0%;
 }
 
@@ -145,6 +145,10 @@ html {
     margin-left: 10%;
     height: 350px;
     width: 350px;
+}
+
+#checkTimes {
+    margin-left: 10%;
 }
 
 .imageBox {
@@ -285,16 +289,16 @@ footer {
     }
     
 #teamImage{
-    /*margin-top: 50%;*/
+    margin-top: 0%;
     margin-left: 0%;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 #aboutCar{
     width: 400px;
-    height: 300px;
-    margin-left: 35%;
+    height: 400px;
+    margin-left: 0%;
 }
     #scrollHere {
         margin-top: 0%;
@@ -428,7 +432,11 @@ footer {
     margin-left: 30%;
 }
 
-
+  #mission{
+        margin-top: 3%;
+        /*margin-left: 5%;*/
+    }
+    
 }
 
 
@@ -539,8 +547,8 @@ footer {
 
 #shopPhoto{
     height: 150px;
-    width: 220px;
-   margin-left: 20%;
+    width: 250px;
+   margin-left: 0%;
    /*margin-right: 5%;*/
    margin-top: 5%;
    /*float: right;*/
@@ -626,7 +634,10 @@ footer {
 }
 
 #submitButton {
-    margin-left: -3%;
+    margin-left: 0%;
 }
 
+#checkTimes {
+    margin-left: 0%;
+}
 }
