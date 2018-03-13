@@ -31,9 +31,8 @@ var images1 = [
 
 ];
 
-var images2 = [{
-        link: "images/mid1.png"
-    },
+var images2 = [
+   
     {
         link: "images/mid2.png"
     },

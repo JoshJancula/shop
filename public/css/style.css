@@ -241,19 +241,6 @@ footer {
 
 
 
-
-
-#body3 {
-    display: flex;
-    min-height: 100vh;
-    width: 100%;
-    padding: 0;
-    margin: 6px 6px 6px 6px;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .tabImg {
         height: 300px;
         width: 600px;
@@ -307,7 +294,7 @@ footer {
     }
     
     #needed{
-    margin-top: 0%;
+    margin-top: 10%;
 }
 
    .carousel-item{
@@ -414,7 +401,7 @@ footer {
 }
 
 .bottomLink:first-child{
-    margin-left: 50%;
+    margin-left: 0%;
 }
 
 #facebookContact{
@@ -436,6 +423,11 @@ footer {
         margin-top: 3%;
         /*margin-left: 5%;*/
     }
+    
+ #checkTimes {
+    margin-left: 0%;
+}
+ 
     
 }
 
@@ -560,7 +552,7 @@ footer {
     width: 300px;
 }
 
-.bottomLink:first-child{
+.bottomLink{
     margin-left: -2%;
 }
 
