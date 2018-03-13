@@ -296,10 +296,18 @@ footer {
     #needed{
     margin-top: 10%;
 }
+.carousel {
+    /*margin-top: 2%;*/
+    margin-left: -40%;
+    height: 300px;
+    width: 900px;
+    padding: 5%;
+}
 
-   .carousel-item{
+ .carousel-item{
        margin-left: -15%;
    }
+
     #menuButton {
         margin-top: 1%;
         margin-left: 2%;
@@ -342,14 +350,7 @@ footer {
     /*margin-left: -5%;*/
 }
 
-    .carousel {
-        margin-left: 10%;
-        width: 560px;
-        height: 300px;
-        padding: 1%;
-        margin-bottom: 0%;
-    }
-    
+  
     .item {
         margin-left: 15%;
     }
